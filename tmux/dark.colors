@@ -1,0 +1,29 @@
+##+ window title:
+set-option -g set-titles on
+set-option -g set-titles-string '[#S:#I] #W'
+set-window-option -g automatic-rename on
+
+##+ messages:
+set-window-option -g mode-bg colour235
+set-window-option -g mode-fg white
+set-option -g message-bg black
+set-option -g message-fg green
+
+##+ panes:
+# set -g pane-border-fg colour235
+set-option -g pane-border-fg colour16
+set-option -g pane-border-bg default
+set-option -g pane-active-border-fg colour17 
+set-option -g pane-active-border-bg default
+
+
+set-window-option -g window-status-fg white 
+set-window-option -g window-status-bg default
+
+# highlight current window
+set-window-option -g window-status-current-fg green
+set-window-option -g window-status-current-bg default
+
+##+ clock:
+set-window-option -g clock-mode-colour cyan
+set-window-option -g clock-mode-style 24
